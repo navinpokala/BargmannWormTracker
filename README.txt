@@ -1,15 +1,17 @@
+From Lopez-Cruz et al Neuron 2019
+
 Make sure that you have the Matlab image processing toolbox installed. 
 
 Launch matlab.
 
-cd to where-ever you put my code. I STRONGLY recommend against using spaces in directories or filenames. 
+cd to where-ever you put the code. We STRONGLY recommend against using spaces in directories or filenames. 
 
 Edit navin_code_setup.m:
-      edit the NAVIN_CODE_PATH to where you put my source code directory
+      edit the NAVIN_CODE_PATH to where you put the source code directory
 
 Using Windows, copy put_into_C_windows_system32\pdftk.exe to C:\Windows\System32
 
-Run navin_code_setup in matlab each time you want to use my code: 
+Run navin_code_setup in matlab each time you want to use the code: 
 
 >> navin_code_setup 
 
@@ -73,8 +75,6 @@ Copper Rings:
 
 For lawn leaving:
 	For experimental details, see Bendesky et al 2011
-	See the included movie hw_1.avi for an example. The drawn circle was made using a standard 6mm diameter 
-		holepunch hole as a stensil. 
 	Movies should be saved as xvid mpeg-4 avi files
 	leaving_events_per_min_on_lawn = lawn_leaving_analysis(Moviename, framerate, timerbox_flag);
 	Returns the mean lawn leaving events per worm minute on the lawn in leaving_events_per_min_on_lawn 
