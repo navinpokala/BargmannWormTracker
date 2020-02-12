@@ -33,8 +33,8 @@ argument1 can be:
      or a text file listing directories of movies
 If you have a second movie my_scale_movie.avi with a object of known length, include 'scale','my_scale_movie.avi' in the argument 
 If you have drawn a circle on the plate using a holepunch template as a scale marker, include 'holepunch' 
-If your framerate is NOT 3, include 'framerate','my_framerate' in the argument 
-If number of worms <20 or >30, then you might include 'numworms',#worms in the argument (optional)
+If your framerate is NOT 3, include 'framerate','my_framerate' in the argument, without single quotes around the number
+If number of worms <20 or >30, then you might include 'numworms',#worms in the argument (optional), without single quotes around the number
 If you have a copper ring, AND your animals are on food, include 'food' in the argument (optional)
 Please see the example and README in demo_movie/
 
